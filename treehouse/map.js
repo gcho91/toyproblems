@@ -20,3 +20,5 @@ const prices = [5, 4.23, 6.4, 8.09, 3.20];
 const displayPrices = prices.map(price => `$${price.toFixed(2)}`);
 //ES6 - save in a const and display. template literal
 console.log(displayPrices)
+
+// https://teamtreehouse.com/library/return-a-single-value-from-an-array-with-reduce
